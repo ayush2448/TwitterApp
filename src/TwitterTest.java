@@ -10,10 +10,10 @@ public class TwitterTest {
  
          ConfigurationBuilder cb = new ConfigurationBuilder();
          
-         cb.setOAuthConsumerKey("VRu1yXFElzdB7h7OUP04ADfvP");
-         cb.setOAuthConsumerSecret("PiE222eBVurcgbRYPcoGXUHncKThUhyrjwaHQq1ZFwQ2Cyct2V");
-         cb.setOAuthAccessToken("2262997292-6e4aH578LEH7FwQMpKnmBhpPxD19W7AEGXvf8Ai");
-         cb.setOAuthAccessTokenSecret("DMqaLVNniYOs6DIIafAF4Omu8FpThZFhHr6R2hKPc38la");
+         cb.setOAuthConsumerKey("Get Your own");
+         cb.setOAuthConsumerSecret("Get Your own");
+         cb.setOAuthAccessToken("Get Your own");
+         cb.setOAuthAccessTokenSecret("Get Your own");
          
          Twitter twitter = new TwitterFactory(cb.build()).getInstance();
          User user = twitter.verifyCredentials(); // Get main user
